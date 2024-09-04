@@ -5,10 +5,10 @@ struct LocationsView: View {
     var body: some View {
         VStack {
             LittleLemonLogo()
-                .padding(.top, 50)
+                    .padding(.top, 50)
             
             Text (model.displayingReservationForm ? "Reservation Details" :
-                    "Choose a location")
+                        "Select a location")
             .padding([.leading, .trailing], 40)
             .padding([.top, .bottom], 8)
             .background(Color.gray.opacity(0.2))
